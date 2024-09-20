@@ -1,0 +1,83 @@
+body {
+  background-color: rgba(59, 130, 246, 0.8);
+}
+div.container {
+  height: 150px;
+  background-color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div.container div.esquerda1 img {
+  width: 100px;
+  border-radius: 50%;
+}
+div.container div.direita1 nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
+div.container div.direita1 nav a:hover {
+  background-color: cornflowerblue;
+  color: white;
+}
+div.container div.direita1 nav a.active {
+  background-color: cornflowerblue;
+  color: white;
+}
+div.container div.esquerda1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+div.container div.esquerda1 p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: "Caveat", cursive;
+  font-size: 14pt;
+}
+div.container1 {
+  height: 700px;
+  background-color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+div.container1 div.esquerda2 img {
+  width: 100%;
+  border-radius: 50%;
+}
+div.container1 div.direita2 p {
+  text-justify: auto;
+  max-width: 900px;
+  font-size: 26pt;
+  font-family: "Caveat", cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+div.container1 div.esquerda3 img {
+  width: 100%;
+}
+div.container2 {
+  height: 450px;
+  background-color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+div.container2 div.direita3 p {
+  text-justify: auto;
+  max-width: 600px;
+  font-size: 20pt;
+  font-family: "Caveat", cursive;
+}
